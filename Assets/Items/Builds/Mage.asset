@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8cad133b0e744a42a2f2f7b89647f3a, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: 
+  editorOnly: 0
+  icon: {fileID: 21300048, guid: 2032aa95db1a9da488c08035516c387b, type: 3}
+  description: Good with electricity and magic kind of stuff. Chance to find electric
+    guns is higher.
+  startingWeapons:
+  - {fileID: 11400000, guid: 8a5f5d51201b91e46a2f0f110a21c50a, type: 2}
+  - {fileID: 11400000, guid: d8ae2567d4838434ea894579ef18e60d, type: 2}
+  startingArmor: []
+  chances:
+  - goForAmmo: 1
+    ammoType: Electricity
+    gunType: 0
+    chance: 100
+  - goForAmmo: 0
+    ammoType: Electricity
+    gunType: 0
+    chance: 100
+  - goForAmmo: 0
+    ammoType: Electricity
+    gunType: 3
+    chance: 100
+  - goForAmmo: 0
+    ammoType: Electricity
+    gunType: 5
+    chance: 100
+  maxHealth: 6
+  startingAmmo: 100

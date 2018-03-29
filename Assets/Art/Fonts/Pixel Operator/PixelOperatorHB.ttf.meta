@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3104df9fdc4fa2545be2541554c0924f
+timeCreated: 1486156133
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Pixel Operator HB
+  fontNames:
+  - Pixel Operator HB
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

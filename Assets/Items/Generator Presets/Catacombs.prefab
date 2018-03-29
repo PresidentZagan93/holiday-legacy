@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1647062648793242}
+  m_IsPrefabParent: 1
+--- !u!1 &1647062648793242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4759185557500396}
+  - component: {fileID: 114783005877925350}
+  m_Layer: 0
+  m_Name: Catacombs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4759185557500396
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1647062648793242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114783005877925350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1647062648793242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d97ceed4147a97242bd7c0b079cfeeab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  banner: {fileID: 0}
+  tileset: Catacombs
+  alternateTileset: Ice
+  rooms:
+  - tileset: Catacombs
+    doorType: 1
+    usesKey: 0
+    blocks: 0
+    type:
+      typeClassName: ObjectRoomBoss
+    amount:
+      min: 1
+      max: 2
+    dimension:
+      min: 4
+      max: 6
+  - tileset: Catacombs
+    doorType: 1
+    usesKey: 0
+    blocks: 0
+    type:
+      typeClassName: ObjectRoomShop
+    amount:
+      min: 1
+      max: 1
+    dimension:
+      min: 3
+      max: 3
+  - tileset: Catacombs
+    doorType: 0
+    usesKey: 0
+    blocks: 0
+    type:
+      typeClassName: ObjectRoomChest
+    amount:
+      min: 1
+      max: 1
+    dimension:
+      min: 3
+      max: 3
+  effects:
+    ambience: {fileID: 0}
+    underground: 1
+    reverb: 9
+    minimapColor: {r: 1, g: 1, b: 1, a: 1}
+    minimapOutline: {r: 1, g: 1, b: 1, a: 1}
+    ambientShadingColor: {r: 0, g: 0, b: 0, a: 0.353}
+    backgroundColor: {r: 0, g: 0, b: 0, a: 1}
+    overlay: {fileID: 0}
+    postProcessProfile: {fileID: 11400000, guid: 4cf7c1154ebe15746967a57029577884,
+      type: 2}
+  props:
+  - amount:
+      min: 7
+      max: 9
+    prop: {fileID: 1000011088223992, guid: 9c33ee4f1e53e5644a74e7230ca61d2c, type: 2}
+    randomOrient: 1
+    ignoreContains: 0
+  - amount:
+      min: 7
+      max: 9
+    prop: {fileID: 1000012505196698, guid: aaa3dc3bc67475149bacf2fd78cfaed8, type: 2}
+    randomOrient: 1
+    ignoreContains: 0
+  - amount:
+      min: 7
+      max: 9
+    prop: {fileID: 1000013780706370, guid: 23347a48d99723f478b6584a26fd30d5, type: 2}
+    randomOrient: 1
+    ignoreContains: 0
+  - amount:
+      min: 7
+      max: 9
+    prop: {fileID: 1000012739533994, guid: 94e9dbb29cd33ee47834997acba72f33, type: 2}
+    randomOrient: 1
+    ignoreContains: 0
+  - amount:
+      min: 10
+      max: 20
+    prop: {fileID: 1000013633896402, guid: 0d477833df3c6d041a04b653c6c4f4f7, type: 2}
+    randomOrient: 1
+    ignoreContains: 0
+  - amount:
+      min: 10
+      max: 20
+    prop: {fileID: 1000013633896402, guid: 67b8dbb24b686d14bae1e3a31c0bef40, type: 2}
+    randomOrient: 1
+    ignoreContains: 0
+  - amount:
+      min: 10
+      max: 20
+    prop: {fileID: 1000013633896402, guid: 2c42536e3b832f149a60edde3cf3f13f, type: 2}
+    randomOrient: 1
+    ignoreContains: 0
+  - amount:
+      min: 7
+      max: 9
+    prop: {fileID: 1000010466335516, guid: 33c5b0c9471767a4da4bdb53517db812, type: 2}
+    randomOrient: 1
+    ignoreContains: 0
+  - amount:
+      min: 7
+      max: 9
+    prop: {fileID: 1000012465948122, guid: 650cb2034397bc945805e05a561887e5, type: 2}
+    randomOrient: 1
+    ignoreContains: 0
+  - amount:
+      min: 7
+      max: 9
+    prop: {fileID: 1000012465948122, guid: 189c3771e38571048a8c2ce68febf8f1, type: 2}
+    randomOrient: 1
+    ignoreContains: 0
+  - amount:
+      min: 2
+      max: 3
+    prop: {fileID: 1251547561716716, guid: 7c7ddcfb18b646c40866e5609ec1e484, type: 2}
+    randomOrient: 0
+    ignoreContains: 0
+  - amount:
+      min: 2
+      max: 3
+    prop: {fileID: 1251547561716716, guid: e1f7b6fa231c3e1489712cf27aff6d4a, type: 2}
+    randomOrient: 0
+    ignoreContains: 0
+  propsWall:
+  - horizontal: {fileID: 1113533636076456, guid: e39652c236c0bb841a8922b764bae0d5,
+      type: 2}
+    horizontalOffset: 16
+    vertical: {fileID: 1730108855887566, guid: af7214a276a528247ab8048deb622c31, type: 2}
+    verticalClipped: {fileID: 1840633494299222, guid: 42522cadda262e74abbcd56136fd4dce,
+      type: 2}
+    mod: 6
+  pickups:
+  - amount:
+      min: 1
+      max: 2
+    prop: {fileID: 1000011700730284, guid: 668811863a8c6354ab38a0c9435fc0ed, type: 2}
+    randomOrient: 0
+    ignoreContains: 0
+  - amount:
+      min: 1
+      max: 2
+    prop: {fileID: 1000011218927306, guid: 8d1b39eb6d128294fb0042bb8356abd1, type: 2}
+    randomOrient: 0
+    ignoreContains: 0
+  turns: 200
+  altStreakChance: 5
+  altStreakAmount: 6
+  bloatChance: 5
+  bloatSize: 2
+  turnChance: 75

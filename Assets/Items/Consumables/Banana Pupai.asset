@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a89b0a4c000c8242bc194a331af78b2, type: 3}
+  m_Name: Banana Pupai
+  m_EditorClassIdentifier: 
+  id: 1
+  lockId: 1
+  ready: 1
+  price: 200
+  clearOnFinish: 1
+  type: 0
+  description: Weapons become recursive.
+  duration: 3
+  forever: 0
+  extendOnKill: 1
+  extendOnKillAmount: 2
+  icon: {fileID: 21300136, guid: 26d123ea93637314e98018729057d7ae, type: 3}
+  audio: {fileID: 11400000, guid: 591c86dd2f5f82b4b8d52efa878be973, type: 2}
+  qualities:
+  - name: GunRecursionsInstances
+    value: 3
+  - name: GunRecursionsMax
+    value: 1
+  - name: GunForceRecursion
+    value: 1

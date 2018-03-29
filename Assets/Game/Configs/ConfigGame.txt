@@ -1,0 +1,10 @@
+{
+    "kills": 8387,
+    "deaths": 244,
+    "version": 4265,
+    "time": 149235.53125,
+    "score": 0,
+    "highscore": 2936685,
+    "lastBuild": 4,
+    "shots": 44884
+}

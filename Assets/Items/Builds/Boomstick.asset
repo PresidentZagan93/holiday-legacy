@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8cad133b0e744a42a2f2f7b89647f3a, type: 3}
+  m_Name: Boomstick
+  m_EditorClassIdentifier: 
+  editorOnly: 0
+  icon: {fileID: 21300118, guid: 26d123ea93637314e98018729057d7ae, type: 3}
+  description: Good with explosives and splash based weapons. Chance to find explosive
+    guns is higher.
+  startingWeapons:
+  - {fileID: 11400000, guid: 45e1f197ec91a9f4abc5e70e6b0011a0, type: 2}
+  startingArmor:
+  - {fileID: 11400000, guid: a8440ebee1559e54bbb6a16609556260, type: 2}
+  - {fileID: 11400000, guid: 254b118395f73ad44a4ebe299ff26b7e, type: 2}
+  chances:
+  - goForAmmo: 1
+    ammoType: Cannon Balls
+    gunType: 0
+    chance: 100
+  - goForAmmo: 1
+    ammoType: Explosives
+    gunType: 0
+    chance: 100
+  - goForAmmo: 1
+    ammoType: Flares
+    gunType: 0
+    chance: 100
+  - goForAmmo: 1
+    ammoType: Gasoline
+    gunType: 0
+    chance: 100
+  - goForAmmo: 1
+    ammoType: Grenades
+    gunType: 0
+    chance: 100
+  - goForAmmo: 1
+    ammoType: Rockets
+    gunType: 0
+    chance: 100
+  maxHealth: 6
+  startingAmmo: 100

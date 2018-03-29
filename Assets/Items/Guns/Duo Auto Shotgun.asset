@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be9cb2eabfea924fa51d5f1b891e8b0, type: 3}
+  m_Name: Duo Auto Shotgun
+  m_EditorClassIdentifier: 
+  id: 26
+  lockId: 1
+  level: 5
+  price: 50
+  ready: 1
+  enemyOnly: 0
+  type: 1
+  ammoType: Shells
+  icon: {fileID: 21300084, guid: 2032aa95db1a9da488c08035516c387b, type: 3}
+  description: 
+  colorRandom: 0
+  color: {r: 0, g: 0.25517225, b: 1, a: 1}
+  selfHarm: 1
+  fireRate: 0.45
+  fireDelay: 0
+  recoil: 3.2
+  ammoCost: 2
+  evenRecoil: 1
+  automatic: 1
+  bursts: 1
+  burstRate: 0.1
+  shooterKnockback: 5
+  shots: 4
+  projectile: Projectile_Bullet
+  projectileRotation: 1
+  projectileArcs: 0
+  projectileArcGravity: 5
+  projectileArcUpwardsKick: 50
+  slowdown: 6
+  maxBounces: 2
+  lifeTime: 1
+  speed: 60
+  successChance: 100
+  damage: 1
+  scale: 1
+  sizeOverLifetime:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 1.2032804
+      outSlope: 1.2032804
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.7264075
+      value: 1
+      inSlope: -0.2772322
+      outSlope: -0.2772322
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: -5.8512487
+      outSlope: -5.8512487
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  hitEffect: {fileID: 1000011668911520, guid: 19529a614e6ee464a8fe423ece437940, type: 2}
+  splash: 0
+  splashRange: 32
+  splashDamage: 1
+  meleeSwingSpeed: 3
+  meleeBreaks: 1
+  meleeReflects: 0
+  meleeType: 1
+  rotationOffset: 0
+  holdPosition: {x: 7, y: -4}
+  attack:
+    soundType: 1
+    screenshake: 4
+    equipSound: {fileID: 8300000, guid: 15a6ef1a2baaaa24e90f4856a82d2178, type: 3}
+    loopSound: {fileID: 0}
+    startSound: {fileID: 8300000, guid: 23fee2c2eb40b164cb7a002ef41c77d5, type: 3}
+    endSound: {fileID: 0}
+    idleSound: {fileID: 0}
+    dryFireSound: {fileID: 8300000, guid: 163bf82860fc5064291410ed3ed38b98, type: 3}
+    successSound: {fileID: 0}
+    shootEffect: {fileID: 1000013425520224, guid: 7031564c791a49f42ad923fc70814394,
+      type: 2}
+    shootOffset: {x: 6, y: 0}
+  recursion:
+    enabled: 0
+    maxRecursions: 2
+    instancesPerRecursion: 3
+  effects: []
+  qualities: []
+  laserTexture: {fileID: 0}
+  shellEjection: 0
+  shellName: 
+  shellSound: {fileID: 0}
+  handle:
+    type: 2
+    hand1Position: {x: -6, y: -3}
+    hand2Position: {x: 4.19, y: -1.85}
+  wieldMode: 1
+  kickbackMode: 1

@@ -1,0 +1,42 @@
+{
+    "gold": 0,
+    "time": 0.0,
+    "kills": 0,
+    "secretsFound": 0,
+    "pickups": 0,
+    "score": 0,
+    "generatorLevel": "",
+    "generatorProgress": "",
+    "generatorTip": "",
+    "generatorBanner": {
+        "instanceID": 0
+    },
+    "deathCause": "",
+    "deathTip": "",
+    "gunPrimaryIcon": {
+        "instanceID": 0
+    },
+    "gunPrimaryAmmo": "",
+    "gunSecondaryIcon": {
+        "instanceID": 0
+    },
+    "gunSecondaryAmmo": "",
+    "consumableName": "",
+    "consumableIcon": {
+        "instanceID": 0
+    },
+    "consumableLevel": "",
+    "consumableTime": "",
+    "finish": {
+        "x": 0,
+        "y": 0
+    },
+    "spawn": {
+        "x": 0,
+        "y": 0
+    },
+    "bossHealth": 0,
+    "bossHealthMax": 0,
+    "health": 0,
+    "healthMax": 0
+}

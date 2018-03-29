@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f1ecab0c0dc7de4ba9746dd0dd39db4, type: 3}
+  m_Name: MetallicArmor
+  m_EditorClassIdentifier: 
+  audioClips:
+  - name: ArmorBlock
+    clip: {fileID: 8300000, guid: ce329f1f5a6b723438fabc9abf66e4e8, type: 3}
+  - name: ArmorReflect
+    clip: {fileID: 8300000, guid: a47a5dc8a39d0954c9239fa3f21ad9e1, type: 3}
+  - name: ArmorEquip
+    clip: {fileID: 8300000, guid: 2c87e73f39d65434a8be022b5a9d018b, type: 3}
+  - name: ArmorDrop
+    clip: {fileID: 8300000, guid: 38bbf630a5cd2064ebd2da18a194e632, type: 3}

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 472f5378f02e10c46971f0ae37e5294e
+timeCreated: 1501964697
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Janyk
+  fontNames:
+  - Janyk
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

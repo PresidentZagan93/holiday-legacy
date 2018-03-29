@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1bf2e72ac8642b4db24403aa0947b1a, type: 3}
+  m_Name: Executioner Mask
+  m_EditorClassIdentifier: 
+  id: 23
+  lockId: 1
+  ready: 1
+  price: 50
+  icon: {fileID: 21300098, guid: 9ac007c22ca977f4494be8b7cfad19e7, type: 3}
+  shieldDisabledIcon: {fileID: 0}
+  description: 
+  type: 0
+  order: 0
+  visible: 1
+  position: {x: 0, y: 6}
+  shieldIdlePosition: {x: 0, y: 0}
+  rotation: 0
+  audio: {fileID: 11400000, guid: a186113d4ef29ee4f89759a6cd9b2699, type: 2}
+  qualities:
+  - name: PlayerSpeedResistance
+    value: 1

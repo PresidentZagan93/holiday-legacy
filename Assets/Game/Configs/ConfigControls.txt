@@ -1,0 +1,10 @@
+{
+    "moveLeft": 97,
+    "moveRight": 100,
+    "moveForward": 119,
+    "moveBack": 115,
+    "attack": 323,
+    "interact": 101,
+    "activate": 32,
+    "swap": 113
+}

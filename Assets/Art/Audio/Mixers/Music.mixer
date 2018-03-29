@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Music
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 0
+  m_UpdateMode: 0
+  m_ExposedParameters:
+  - guid: 04d81e41f992ecf42a6918919f745c90
+    name: vol
+  m_AudioMixerGroupViews:
+  - guids:
+    - 1551e167fcb2b514b8ca238c0f5e4ab8
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 1551e167fcb2b514b8ca238c0f5e4ab8
+  m_Children: []
+  m_Volume: 04d81e41f992ecf42a6918919f745c90
+  m_Pitch: 1b494285d425c43488654072d4c0eda5
+  m_Effects:
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 655830cff918f0046b1eac8adb9daed0
+  m_EffectName: Attenuation
+  m_MixLevel: 88cd1cc701e0dc94a86ca74697057af7
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 825afb58ec5cea34394bc3067701eb99
+  m_FloatValues:
+    91091a6038e830c4190beabbd570dbb5: 18.8
+    7a561cb0a8b4fb546a0d65c78c6ad03d: 1
+    31ae37e0ca342e4428a7994a10582573: 260
+    04d81e41f992ecf42a6918919f745c90: -25
+    37b2a0610cc3d6f48a69b58c0b613342: 1656
+    a9ddcda1cbbeefe4db7fa0d9e08005b6: 1000000
+    9f95ccb16ae753d408a35ac33c2073d8: 0
+    b09cf1c1bc005f04c89bf375fb238401: 1
+    ca5fa252b74d90e4ab6e3a830508db47: 1164
+    93afcfb246d50584b9000eca7dc071e6: 1
+    c0155fa3178e8124c85bc4d1ab427e6c: 0
+    e1ff94b311544244680446ddce83b5bb: 0
+    75675b1413d6af9499f4f2f1b5fd2efe: 0.1
+    61782a44f7f042b43b8aa942c579bb65: 10
+    1248a6f49db6eac4085212dbf2b86499: 0.1
+    0649132565f4fcf48a80dbf098a80cae: 16.5
+    38f13325e65c5e34b9e1bf1dc7417312: 0.31
+    a67a6155d842f584b842a49eacafcf97: 1
+    1b494285d425c43488654072d4c0eda5: 1
+    ff026b57de69b5948a661f54780d22ee: 0.58
+    82d35867d859f474bb71183e17ee1cdf: 10
+    a2084877e4c980542b35d11f0c861ab3: 0.47
+    af80337851671274996e3aaa1d11e8c7: -59.600006
+    80832659d6eecf647bf26f774db63304: 1000000
+    63935dbaecc22b849a57e24ace46ed0e: 1
+    2c50d5ea22e0570408f5ba2117371eb9: -26
+    1a1c306b9ae1a864eadf6a1c34f3289c: 1
+    f30a872c3ae12c24dbcff64b98522a52: 0
+    8dabc65cbbca80245936ddeb176a406d: 10
+    2b08db3db152dcc469255430a99efd82: 100
+    38c89d9d037acc944996e0c01ba5e712: 0
+    1655ce5e4da2e914aa561ec943b435c7: 12.5
+    2463397e0aee58646ac03fe6e13a2390: 8.300004
+    1e2c9ecef1b9cc64cba6e77a879a2b89: 1
+    1424c8fe46b0edd429fa58504b155fc2: 1
+  m_TransitionOverrides: {}

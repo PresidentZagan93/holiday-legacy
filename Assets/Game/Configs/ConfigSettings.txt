@@ -1,0 +1,12 @@
+{
+    "volumeMaster": 26.0,
+    "volumeMusic": 0.0,
+    "volumeEffects": 30.0,
+    "volumeVoices": 50.0,
+    "screenshakeUi": 100.0,
+    "screenshakeWorld": 99.0,
+    "minimapScale": 1.0,
+    "language": 0,
+    "showFps": true,
+    "debug": false
+}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8cad133b0e744a42a2f2f7b89647f3a, type: 3}
+  m_Name: Knight
+  m_EditorClassIdentifier: 
+  editorOnly: 0
+  icon: {fileID: 21300072, guid: 9ac007c22ca977f4494be8b7cfad19e7, type: 3}
+  description: Good with close range weapons. Chance to find a melee weapon is higher.
+  startingWeapons:
+  - {fileID: 11400000, guid: 2e5a34be09c1cb344942002225e6f390, type: 2}
+  startingArmor:
+  - {fileID: 11400000, guid: 2a2cca7c30c60c44d991f09406ea0c98, type: 2}
+  chances:
+  - goForAmmo: 0
+    ammoType: Arrows
+    gunType: 4
+    chance: 100
+  maxHealth: 4
+  startingAmmo: 50

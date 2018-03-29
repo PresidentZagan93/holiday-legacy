@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e004a5dc5b2fdf14ba46d06f1f2003d7
+timeCreated: 1496859771
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Miamiwriting
+  fontNames:
+  - Miamiwriting
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 3
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

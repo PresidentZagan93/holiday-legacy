@@ -1,0 +1,6 @@
+{
+    "branches": [
+        "dev",
+        "stable"
+    ]
+}

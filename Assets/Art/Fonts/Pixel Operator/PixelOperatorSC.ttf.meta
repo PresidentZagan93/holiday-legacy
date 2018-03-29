@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 096fcd00c663c4649a3f9a0f7a2bbd68
+timeCreated: 1486156133
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Pixel Operator SC
+  fontNames:
+  - Pixel Operator SC
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

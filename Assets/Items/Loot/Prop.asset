@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ed32187701595468fefd1bfd1e3538, type: 3}
+  m_Name: Prop
+  m_EditorClassIdentifier: 
+  loot:
+  - amount:
+      min: 1
+      max: 1
+    chance: 7
+    prop: {fileID: 1000011218927306, guid: 8d1b39eb6d128294fb0042bb8356abd1, type: 2}
+  - amount:
+      min: 1
+      max: 1
+    chance: 7
+    prop: {fileID: 1000012753200062, guid: 56e78473f3bdc6846aae91af321be988, type: 2}
+  - amount:
+      min: 1
+      max: 1
+    chance: 7
+    prop: {fileID: 1000012753200062, guid: c85a0e7a118c91c45b8a3777d452a492, type: 2}
+  - amount:
+      min: 4
+      max: 6
+    chance: 100
+    prop: {fileID: 1000010181560034, guid: a9901db7c508c2442bb4e76ab51b6f0e, type: 2}
+  extra:
+  - {fileID: 11400000, guid: f9cdeba73df5c8543ba5f3d728daf537, type: 2}

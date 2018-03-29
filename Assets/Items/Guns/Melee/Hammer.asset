@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be9cb2eabfea924fa51d5f1b891e8b0, type: 3}
+  m_Name: Hammer
+  m_EditorClassIdentifier: 
+  id: 11
+  lockId: 1
+  level: 2
+  price: 50
+  ready: 1
+  enemyOnly: 0
+  type: 4
+  ammoType: None
+  icon: {fileID: 21300026, guid: 2032aa95db1a9da488c08035516c387b, type: 3}
+  description: 
+  colorRandom: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  selfHarm: 1
+  fireRate: 0.75
+  fireDelay: 0
+  recoil: 0.2
+  ammoCost: 1
+  evenRecoil: 0
+  automatic: 1
+  bursts: 1
+  burstRate: 0.1
+  shooterKnockback: 2
+  shots: 1
+  projectile: Projectile_Bullet
+  projectileRotation: 0
+  projectileArcs: 0
+  projectileArcGravity: 5
+  projectileArcUpwardsKick: 50
+  slowdown: 0
+  maxBounces: 3
+  lifeTime: 0.3
+  speed: 60
+  successChance: 100
+  damage: 2
+  scale: 1.5
+  sizeOverLifetime:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  hitEffect: {fileID: 1000011668911520, guid: 19529a614e6ee464a8fe423ece437940, type: 2}
+  splash: 0
+  splashRange: 32
+  splashDamage: 1
+  meleeSwingSpeed: 2
+  meleeBreaks: 0
+  meleeReflects: 1
+  meleeType: 1
+  rotationOffset: 0
+  holdPosition: {x: 5, y: 8}
+  attack:
+    soundType: 1
+    screenshake: 4
+    equipSound: {fileID: 0}
+    loopSound: {fileID: 0}
+    startSound: {fileID: 8300000, guid: 72fce137f2c5616438a0594e1d48efa3, type: 3}
+    endSound: {fileID: 0}
+    idleSound: {fileID: 0}
+    dryFireSound: {fileID: 0}
+    successSound: {fileID: 8300000, guid: 9514a8752149a2242ac9b2b44ac49ff9, type: 3}
+    shootEffect: {fileID: 0}
+    shootOffset: {x: 6, y: 0}
+  recursion:
+    enabled: 0
+    maxRecursions: 2
+    instancesPerRecursion: 3
+  effects: []
+  qualities: []
+  laserTexture: {fileID: 0}
+  shellEjection: 0
+  shellName: 
+  shellSound: {fileID: 0}
+  handle:
+    type: 5
+    hand1Position: {x: -0.41, y: -7.93}
+    hand2Position: {x: 0.4, y: 2.49}
+  wieldMode: 0
+  kickbackMode: 1

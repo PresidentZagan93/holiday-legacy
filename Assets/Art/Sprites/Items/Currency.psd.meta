@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: 9d3a7837bcda1504eab49cd057ba7e67
+timeCreated: 1487263110
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Pickups_0
+    21300002: Pickups_1
+    21300004: Pickups_2
+    21300006: Pickups_3
+    21300008: Pickups_4
+    21300010: Pickups_5
+    21300012: Pickups_6
+    21300014: Pickups_7
+    21300016: Pickups_8
+    21300018: Pickups_9
+    21300020: Pickups_10
+    21300022: Pickups_11
+    21300024: Pickups_12
+    21300026: Pickups_13
+    21300028: Pickups_14
+    21300030: Pickups_15
+    21300032: Pickups_16
+    21300034: Pickups_17
+    21300036: Pickups_18
+    21300038: Pickups_19
+    21300040: Pickups_20
+    21300042: Pickups_21
+    21300044: Pickups_22
+    21300046: Pickups_23
+    21300048: Pickups_24
+    21300050: Pickups_25
+    21300052: Pickups_26
+    21300054: Pickups_27
+    21300056: Pickups_28
+    21300058: Pickups_29
+    21300060: Pickups_30
+    21300062: Pickups_31
+    21300064: Pickups_32
+    21300066: Pickups_33
+    21300068: Pickups_34
+    21300070: Pickups_35
+    21300072: Pickups_36
+    21300074: Pickups_37
+    21300076: Pickups_38
+    21300078: Pickups_39
+    21300080: Pickups_40
+    21300082: Pickups_41
+    21300084: Pickups_42
+    21300086: Pickups_43
+    21300088: Pickups_44
+    21300090: Pickups_45
+    21300092: Pickups_46
+    21300094: Pickups_47
+    21300096: Pickups_48
+    21300098: Pickups_49
+    21300100: Currency_0
+    21300102: Currency_1
+    21300104: Currency_2
+    21300106: Currency_3
+    21300108: Currency_4
+    21300110: Currency_5
+    21300112: Currency_6
+    21300114: Currency_7
+    21300116: Currency_8
+    21300118: Currency_9
+    21300120: Currency_10
+    21300122: Currency_11
+    21300124: Currency_12
+    21300126: Currency_13
+    21300128: Currency_14
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Currency_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Currency_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 54
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Currency_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 54
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Currency_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Currency_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 44
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Currency_5
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 44
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Currency_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Currency_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 34
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Currency_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 34
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Currency_9
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 54
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Currency_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 44
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Currency_11
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 34
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

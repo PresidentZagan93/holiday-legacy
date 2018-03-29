@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8cad133b0e744a42a2f2f7b89647f3a, type: 3}
+  m_Name: Thief
+  m_EditorClassIdentifier: 
+  editorOnly: 0
+  icon: {fileID: 21300086, guid: 9ac007c22ca977f4494be8b7cfad19e7, type: 3}
+  description: Feel like a real maniac.
+  startingWeapons:
+  - {fileID: 11400000, guid: 158fbb5cf7dc0f1448c84376b275ea98, type: 2}
+  startingArmor:
+  - {fileID: 11400000, guid: 43e126e3b0a54024597d14c859e5c732, type: 2}
+  chances: []
+  maxHealth: 4
+  startingAmmo: 0

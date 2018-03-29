@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be9cb2eabfea924fa51d5f1b891e8b0, type: 3}
+  m_Name: Sniper Rifle
+  m_EditorClassIdentifier: 
+  id: 47
+  lockId: 1
+  level: 5
+  price: 50
+  ready: 0
+  enemyOnly: 0
+  type: 1
+  ammoType: Bullets
+  icon: {fileID: 21300088, guid: 2032aa95db1a9da488c08035516c387b, type: 3}
+  description: 
+  colorRandom: 0
+  color: {r: 1, g: 0.59999996, b: 0, a: 1}
+  selfHarm: 1
+  fireRate: 1.25
+  fireDelay: 0
+  recoil: 0
+  ammoCost: 2
+  evenRecoil: 0
+  automatic: 1
+  bursts: 1
+  burstRate: 0.1
+  shooterKnockback: 6
+  shots: 1
+  projectile: Projectile_Bullet
+  projectileRotation: 1
+  projectileArcs: 0
+  projectileArcGravity: 100
+  projectileArcUpwardsKick: 50
+  slowdown: 0
+  maxBounces: 0
+  lifeTime: 1
+  speed: 120
+  successChance: 100
+  damage: 3
+  scale: 1
+  sizeOverLifetime:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  hitEffect: {fileID: 1000011668911520, guid: 19529a614e6ee464a8fe423ece437940, type: 2}
+  splash: 0
+  splashRange: 32
+  splashDamage: 1
+  meleeSwingSpeed: 3
+  meleeBreaks: 1
+  meleeReflects: 0
+  meleeType: 2
+  rotationOffset: 0
+  holdPosition: {x: 8.34, y: -0.55}
+  attack:
+    soundType: 1
+    screenshake: 4
+    equipSound: {fileID: 8300000, guid: 06881eaad4edf8d4c84665632580641d, type: 3}
+    loopSound: {fileID: 0}
+    startSound: {fileID: 8300000, guid: f0c6b269ade6b5b44b8e8a16e943c97f, type: 3}
+    endSound: {fileID: 0}
+    idleSound: {fileID: 0}
+    dryFireSound: {fileID: 8300000, guid: 163bf82860fc5064291410ed3ed38b98, type: 3}
+    successSound: {fileID: 0}
+    shootEffect: {fileID: 1000013425520224, guid: 7031564c791a49f42ad923fc70814394,
+      type: 2}
+    shootOffset: {x: 6, y: 0}
+  recursion:
+    enabled: 0
+    maxRecursions: 3
+    instancesPerRecursion: 3
+  effects: []
+  qualities:
+  - name: LaserBeam
+    value: true
+  laserTexture: {fileID: 0}
+  shellEjection: 1
+  shellName: Projectile_Bullet_Shell
+  shellSound: {fileID: 8300000, guid: 36cd92766ff0cc34188467fab945f9ff, type: 3}
+  handle:
+    type: 3
+    hand1Position: {x: -7.69, y: -5.2}
+    hand2Position: {x: 4.95, y: -3.67}
+  wieldMode: 0
+  kickbackMode: 1
